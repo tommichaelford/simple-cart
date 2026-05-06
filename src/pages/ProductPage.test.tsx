@@ -51,12 +51,10 @@ test('product page shows the selected product and updates the basket', () => {
     screen.queryByText('A road bike built for the mountains')
   ).not.toBeNull()
   expect(screen.queryByText('£1,400.99')).not.toBeNull()
-  expect(screen.queryByText('Not in basket')).not.toBeNull()
 
   fireEvent.click(screen.getByTestId('add-to-basket'))
 
   expect(screen.queryByText('1 in basket')).not.toBeNull()
-  expect(screen.queryByText('Not in basket')).toBeNull()
   expect(screen.getByTestId('basket-summary-link').textContent).toContain(
     '£1,400.99'
   )

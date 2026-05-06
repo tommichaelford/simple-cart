@@ -58,7 +58,6 @@ const ProductPage = ({ basket, quantity, onAddToBasket }: ProductPageProps) => {
           )}
         </div>
         <p className="detail-card__description">{product.description}</p>
-        {quantity === 0 && <p className="section-eyebrow">Not in basket</p>}
         <button
           type="button"
           className="button"
