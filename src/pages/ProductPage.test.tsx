@@ -5,7 +5,7 @@ import {
   getBasketQuantity,
   type Basket,
   updateBasketQuantity,
-} from '../basket.ts'
+} from '../features/basket/basket.ts'
 import ProductPage from './ProductPage.tsx'
 
 const ProductPageTestWrapper = ({

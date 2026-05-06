@@ -6,7 +6,7 @@ import {
   getBasketItemCount,
   getProductById,
   type Basket,
-} from '../basket.ts'
+} from '../features/basket/basket.ts'
 import './BasketPage.css'
 
 type BasketPageProps = {

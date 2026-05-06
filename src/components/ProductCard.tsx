@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { formatCurrency, type Product } from '../basket.ts'
+import { formatCurrency, type Product } from '../features/basket/basket.ts'
 import Badge from './ui/Badge.tsx'
 import './ProductCard.css'
 

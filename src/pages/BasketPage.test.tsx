@@ -6,7 +6,7 @@ import {
   removeBasketItem,
   type Basket,
   updateBasketQuantity,
-} from '../basket.ts'
+} from '../features/basket/basket.ts'
 
 const BasketPageHarness = ({ initialBasket }: { initialBasket: Basket }) => {
   const [basket, setBasket] = useState(initialBasket)

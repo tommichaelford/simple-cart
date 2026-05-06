@@ -4,7 +4,7 @@ import {
   formatCurrency,
   getBasketItemCount,
   type Basket,
-} from '../basket.ts'
+} from '../features/basket/basket.ts'
 import Badge from './ui/Badge.tsx'
 import './BasketSummary.css'
 

@@ -1,10 +1,10 @@
 import { Route, Routes, useParams } from 'react-router-dom'
-import { getBasketQuantity, type Basket } from './basket.ts'
+import { getBasketQuantity, type Basket } from './features/basket/basket.ts'
 import BasketPage from './pages/BasketPage.tsx'
 import NotFoundPage from './pages/NotFoundPage.tsx'
 import ProductPage from './pages/ProductPage.tsx'
 import ShopPage from './pages/ShopPage.tsx'
-import { useBasket } from './useBasket.ts'
+import { useBasket } from './features/basket/useBasket.ts'
 
 interface ProductRouteProps {
   basket: Basket

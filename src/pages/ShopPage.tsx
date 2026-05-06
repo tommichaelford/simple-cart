@@ -1,6 +1,10 @@
 import ProductCard from '../components/ProductCard.tsx'
 import BasketSummaryCard from '../components/BasketSummary.tsx'
-import { getBasketQuantity, PRODUCTS, type Basket } from '../basket.ts'
+import {
+  getBasketQuantity,
+  PRODUCTS,
+  type Basket,
+} from '../features/basket/basket.ts'
 import './ShopPage.css'
 
 interface ShopPageProps {

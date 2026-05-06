@@ -1,7 +1,11 @@
 import { Link, useParams } from 'react-router-dom'
 import BasketSummary from '../components/BasketSummary.tsx'
 import Badge from '../components/ui/Badge.tsx'
-import { formatCurrency, getProductById, type Basket } from '../basket.ts'
+import {
+  formatCurrency,
+  getProductById,
+  type Basket,
+} from '../features/basket/basket.ts'
 import NotFoundPage from './NotFoundPage.tsx'
 import './ProductPage.css'
 
