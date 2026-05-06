@@ -102,6 +102,11 @@
   cursor: pointer;
 }
 
+.quantity-controls__button:focus-visible {
+  outline: 2px solid var(--border-strong);
+  outline-offset: 2px;
+}
+
 .quantity-controls__button:hover {
   background: var(--bg-muted);
 }

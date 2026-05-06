@@ -91,10 +91,6 @@
   color: var(--text-strong);
 }
 
-.price-summary {
-  text-align: left;
-}
-
 .button {
   padding: 0.65rem 1rem;
   border: 1px solid var(--border);
@@ -112,9 +108,6 @@
 
 .back-link:focus-visible,
 .button:focus-visible,
-.quantity-controls__button:focus-visible,
-.product-card__link:focus-visible,
-.product-card:focus-within,
 .skip-link:focus {
   outline: 2px solid var(--border-strong);
   outline-offset: 2px;
