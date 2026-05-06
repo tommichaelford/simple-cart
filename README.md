@@ -44,7 +44,7 @@ npm run format:check
 
 The current test suite covers:
 
-- Basket data logic in [`src/basket.test.ts`]: quantity updates, removing items when quantity drops below zero, preserving immutability, and recalculating basket totals correctly.
+- Basket data logic in [`src/basket.test.ts`]: quantity updates that do not reduce existing items below one, explicit item removal, preserving immutability, and recalculating basket totals correctly.
 - Product page behaviour in [`src/pages/ProductPage.test.tsx`]: rendering the selected product details, adding the item to the basket, updating the basket summary, and showing the not found page for an unknown product.
 - Basket page behaviour in [`src/pages/BasketPage.test.tsx`]: updating item quantities through the UI and verifying the displayed basket total changes as expected.
 
