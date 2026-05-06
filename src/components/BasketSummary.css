@@ -1,0 +1,35 @@
+.summary {
+  justify-self: end;
+}
+
+.summary__total {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.basket-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--bg-panel);
+  color: var(--text-strong);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.basket-link:hover {
+  background: var(--bg-muted);
+}
+
+.basket-link__icon {
+  line-height: 1;
+}
+
+.basket-link__badge {
+  min-width: 1.5rem;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+.not-found-page {
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.not-found-page__content {
+  max-width: 34rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.not-found-page__action {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}

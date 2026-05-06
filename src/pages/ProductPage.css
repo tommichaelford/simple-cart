@@ -1,0 +1,48 @@
+.detail-card {
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--bg-panel);
+}
+
+.detail-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.detail-card__title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  line-height: 1.15;
+  color: var(--text-strong);
+}
+
+.detail-card__price {
+  font-weight: 700;
+  color: var(--text-strong);
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+}
+
+.detail-card__description,
+.section-eyebrow {
+  color: var(--text-muted);
+}
+
+.detail-card__description {
+  max-width: 42rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detail-card__badge {
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .detail-card__header {
+    flex-direction: column;
+  }
+}
